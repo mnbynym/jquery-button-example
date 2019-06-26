@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(() => {
+
+			$('.mybtn').click(e => {
+				console.log($(e.target).text());
+			});
+		});
+
+	</script>
+</head>
+<body>
+	<button class="mybtn">ButtonA</button>
+	<button class="mybtn">ButtonB</button>
+</body>
+</html>
